@@ -29,6 +29,16 @@ public class BehaviorComponent : MonoBehaviour
         {
             GetComponent<Renderer>().material.color = Color.white;
         }
+        if (Input.GetKeyUp(KeyCode.Y))
+        {
+            GetComponent<Renderer>().material.color = Color.yellow;
+        }
+        if (Input.GetKeyUp(KeyCode.M))
+        {
+            GetComponent<Renderer>().material.color = Color.magenta;
+        }
+        
+       
 
     }
 }
